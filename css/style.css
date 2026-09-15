@@ -28,7 +28,14 @@ section{padding:64px 0}
 .nav-links a{text-decoration:none;font-weight:500;font-size:15px;position:relative;padding:8px 0}
 .nav-links a::after{content:'';position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--primary-dark);transition:width .25s}
 .nav-links a:hover::after{width:100%}
-.nav-right{display:flex;align-items:center;gap:10px}
+.nav-right{display:flex;align-items:center;gap:8px}
+@media(max-width:767px){
+  #navCta{display:none}
+  .logo{font-size:19px}
+  .lang-toggle button{padding:8px 11px;min-height:44px;font-size:12px}
+  .trust-badges span{font-size:11px;padding:7px 10px}
+  .hero h1{font-size:clamp(30px,9vw,40px)}
+}
 .lang-toggle{display:flex;border:1px solid var(--border);border-radius:999px;overflow:hidden;background:#fff}
 .lang-toggle button{border:0;background:transparent;padding:10px 14px;min-height:44px;font-weight:700;cursor:pointer;font-size:13px;color:var(--muted)}
 .lang-toggle button.active{background:var(--primary-dark);color:#FFF8EE}
