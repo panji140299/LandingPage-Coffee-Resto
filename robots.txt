@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mavencoffee.id/sitemap.xml

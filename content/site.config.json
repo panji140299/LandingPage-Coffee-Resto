@@ -1,0 +1,41 @@
+{
+  "brand": {
+    "name": "Maven Coffee & Resto",
+    "tagline": "Specialty Coffee & Modern Resto",
+    "logoText": "MAVEN",
+    "logoAccent": "."
+  },
+  "theme": {
+    "primary": "#BC5A32",
+    "primaryDark": "#3E2A1E",
+    "accent": "#D9A441",
+    "bg": "#F6F0E4",
+    "surface": "#FDFBF6",
+    "ink": "#2B1D12",
+    "muted": "#8A7B6C",
+    "border": "#E7DCC8",
+    "radius": "12px",
+    "fontHead": "'Plus Jakarta Sans', system-ui, sans-serif",
+    "fontBody": "'Inter', system-ui, sans-serif"
+  },
+  "contact": {
+    "whatsapp": "6281234567890",
+    "email": "hello@mavencoffee.id",
+    "phone": "+62 21 555 0123",
+    "address": "Jl. Kemang Raya No. 88, Jakarta Selatan",
+    "hours": "08.00 – 23.00 WIB",
+    "mapsUrl": "https://maps.google.com/?q=Kemang+Jakarta",
+    "instagram": "https://instagram.com",
+    "tiktok": "https://tiktok.com",
+    "gofood": "#"
+  },
+  "cms": {
+    "mode": "mock-json",
+    "note": "Ganti ke Strapi/Contentful: ubah CMS_ENDPOINT di js/app.js. Schema JSON ini sudah 1:1 dengan collection CMS.",
+    "endpoint": null
+  },
+  "seo": {
+    "siteUrl": "https://mavencoffee.id",
+    "ogImage": "https://mavencoffee.id/assets/og-cover.jpg"
+  }
+}

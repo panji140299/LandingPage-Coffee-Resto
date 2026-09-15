@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maven Coffee & Resto — Specialty Coffee & Resto Modern di Jakarta</title>
+<meta name="description" content="Maven Coffee & Resto: specialty coffee, brunch artisan, private event & kemitraan franchise. 12+ outlet, 150K+ cups served, rating 4.9.">
+<meta name="keywords" content="coffee shop jakarta, resto kemang, franchise kopi, catering korporat">
+<link rel="canonical" href="https://mavencoffee.id">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maven Coffee & Resto">
+<meta property="og:description" content="Ngopi serius, makan puas, momen tak terlupakan.">
+<meta property="og:image" content="https://mavencoffee.id/assets/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Maven Coffee & Resto","servesCuisine":["Coffee","Indonesian","Western"],"priceRange":"Rp 25K - Rp 150K","address":{"@type":"PostalAddress","streetAddress":"Jl. Kemang Raya No. 88","addressLocality":"Jakarta Selatan","addressCountry":"ID"},"telephone":"+62-21-555-0123","openingHours":"Mo-Su 08:00-23:00","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"12400"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#kontak">Lewati ke konten</a>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="#" id="logo">MAVEN<span>.</span></a>
+    <ul class="nav-links" id="navLinks"></ul>
+    <div class="nav-right">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button id="btnID" class="active">ID</button>
+        <button id="btnEN">EN</button>
+      </div>
+      <a class="btn btn-primary" id="navCta" href="#kontak" style="min-height:44px;padding:10px 18px">Reservasi Meja</a>
+      <button class="hamburger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close" id="menuClose">✕</button>
+  <div id="mobileLinks"></div>
+  <a class="btn btn-primary" href="#kontak" id="mobileCta" style="margin-top:16px">Reservasi Meja</a>
+</div>
+
+<main class="container">
+  <section class="hero" id="hero">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow" id="heroEyebrow">☕ Dipercaya 150K+ coffee lovers</span>
+        <h1><span id="heroTitle">Ngopi Serius, Makan Puas, Momen</span> <span class="grad" id="heroAccent">Tak Terlupakan.</span></h1>
+        <p class="sub" id="heroSub"></p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" id="heroPrimary" href="#kontak">Reservasi Sekarang</a>
+          <a class="btn btn-secondary" id="heroSecondary" href="#studi">Lihat Menu Signature</a>
+        </div>
+        <div class="trust-badges" id="heroBadges"></div>
+      </div>
+      <div class="hero-visual">
+        <div class="cup-card">
+          <div class="row"><b id="mediaTitle">Best Seller</b><span class="stars" id="mediaRating">★ 4.9</span></div>
+          <h3 style="margin:8px 0" id="mediaItem">Maven Butterscotch Latte</h3>
+          <div class="row"><span class="price" id="mediaPrice">Rp 38K</span><small id="mediaReviews">4.9 (12.4K ulasan)</small></div>
+          <div class="open-pill" id="mediaOpen">● Buka Hari Ini • 08.00–23.00</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0" id="logoSec">
+    <div class="logos reveal">
+      <h2 id="logosHeading"></h2>
+      <p id="logosSub"></p>
+      <div class="marquee"><div class="marquee-track" id="marquee"></div></div>
+    </div>
+  </section>
+
+  <section style="padding-top:0" id="galeri">
+    <div class="sec-head"><div class="kicker" id="galKicker"></div><h2 id="galTitle"></h2><p id="galSub"></p></div>
+    <div class="slideshow" id="slideshow">
+      <div class="slides" id="slides"></div>
+      <button class="slide-btn prev" id="slidePrev" aria-label="Sebelumnya">‹</button>
+      <button class="slide-btn next" id="slideNext" aria-label="Berikutnya">›</button>
+      <div class="slide-cap" id="slideCap"></div>
+      <div class="dots" id="slideDots"></div>
+    </div>
+  </section>
+
+  <section id="layanan">
+    <div class="sec-head reveal"><div class="kicker" id="svcKicker"></div><h2 id="svcTitle"></h2><p id="svcSub"></p></div>
+    <div class="grid grid-3" id="svcGrid"></div>
+  </section>
+
+  <section id="statistik" style="padding-top:0">
+    <div class="stats reveal">
+      <div class="sec-head" style="text-align:center;margin:0 auto 10px"><div class="kicker" id="statKicker"></div><h2 id="statTitle"></h2></div>
+      <div class="grid grid-4" id="statGrid"></div>
+    </div>
+  </section>
+
+  <section id="studi" style="padding-top:0">
+    <div class="sec-head reveal"><div class="kicker" id="caseKicker"></div><h2 id="caseTitle"></h2><p id="caseSub"></p></div>
+    <div class="filters" id="caseFilters"></div>
+    <div class="grid grid-3" id="caseGrid"></div>
+  </section>
+
+  <section id="testimoni" style="padding-top:0">
+    <div class="sec-head reveal"><div class="kicker" id="testiKicker"></div><h2 id="testiTitle"></h2></div>
+    <div class="testi-wrap">
+      <div class="testi-track" id="testiTrack"></div>
+      <div class="dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <section id="kontak" style="padding-top:0">
+    <div class="form-sec">
+      <div class="form-info reveal">
+        <div class="kicker" style="color:var(--accent)" id="formKicker"></div>
+        <h2 id="formTitle" style="margin:8px 0"></h2>
+        <p style="color:#A8A29E;font-size:14px" id="formSub"></p>
+        <ul id="contactList" style="margin-top:16px"></ul>
+        <a class="btn btn-wa" id="directWa" href="#" target="_blank" style="width:100%;margin-top:12px">💬 Chat WhatsApp Langsung</a>
+      </div>
+      <form id="leadForm" novalidate class="reveal">
+        <div class="two">
+          <div><label for="fName" id="lName"></label><input id="fName" name="name" autocomplete="name"><div class="err" id="eName">Wajib diisi (min. 3 huruf)</div></div>
+          <div><label for="fEmail" id="lEmail"></label><input id="fEmail" type="email" autocomplete="email"><div class="err" id="eEmail">Email tidak valid</div></div>
+        </div>
+        <div class="two">
+          <div><label for="fCompany" id="lCompany"></label><input id="fCompany" name="company"></div>
+          <div><label for="fPhone" id="lPhone"></label><input id="fPhone" type="tel" autocomplete="tel" placeholder="08xx..."><div class="err" id="ePhone">No. WA tidak valid</div></div>
+        </div>
+        <div><label for="fType" id="lType"></label><select id="fType"></select></div>
+        <div><label for="fMsg" id="lMsg"></label><textarea id="fMsg" rows="4"></textarea><div class="err" id="eMsg">Ceritakan kebutuhanmu (min. 10 karakter)</div></div>
+        <button class="btn btn-primary" type="submit" id="submitBtn" style="width:100%"></button>
+        <small style="color:var(--muted);text-align:center">🔒 Data dilindungi UU PDP & GDPR. Tanpa spam.</small>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div><a class="logo" style="color:#fff" href="#">MAVEN<span>.</span></a><p style="font-size:14px;color:#A8A29E;margin-top:10px" id="footDesc"></p></div>
+      <div id="footCols" style="display:contents"></div>
+    </div>
+    <div class="copy"><span>© <span id="year"></span> Maven Coffee & Resto. <span id="footRights"></span></span><span id="footMade"></span></div>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta">
+  <a class="btn btn-primary" href="#kontak" id="stickyBtn">📅 Reservasi</a>
+  <a class="btn btn-wa" href="#" id="stickyWa" target="_blank">WhatsApp</a>
+</div>
+
+<div class="modal" id="detailModal">
+  <div class="modal-card detail-card">
+    <button class="detail-close" id="detailClose">✕</button>
+    <div class="detail-hero" id="detailHero">☕</div>
+    <span class="tag" id="detailTag" style="display:none"></span>
+    <h3 id="detailTitle" style="margin:8px 0 4px"></h3>
+    <span class="price" id="detailPrice" style="display:inline-block;margin:6px 0"></span>
+    <p id="detailDesc" style="color:var(--muted);font-size:14px;text-align:left;margin:10px 0"></p>
+    <ul id="detailList" style="text-align:left;font-size:14px;padding-left:18px;display:grid;gap:6px"></ul>
+    <div style="display:flex;gap:8px;margin-top:18px;flex-wrap:wrap">
+      <a class="btn btn-primary" href="#kontak" id="detailCta" style="flex:1">Pesan via WhatsApp</a>
+      <button class="btn btn-secondary" id="detailBack" style="flex:1">Tutup</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="successModal">
+  <div class="modal-card">
+    <div style="font-size:48px">🎉</div>
+    <h3 id="mTitle">Terkirim!</h3>
+    <p style="color:var(--muted);font-size:14px;margin:8px 0 18px" id="mDesc"></p>
+    <a class="btn btn-wa" id="mWa" href="#" target="_blank" style="width:100%">Buka WhatsApp Sekarang</a>
+    <button class="btn btn-secondary" id="mClose" style="width:100%;margin-top:8px">Tutup</button>
+  </div>
+</div>
+
+<div class="cookie" id="cookie"><div style="font-size:13px" id="cookieText"></div><div class="row"><button class="btn btn-primary" id="cookieOk" style="flex:1;min-height:44px">Setuju</button><button class="btn btn-secondary" id="cookieNo" style="flex:1;min-height:44px">Tolak</button></div></div>
+
+<script src="js/fallback.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

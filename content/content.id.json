@@ -1,0 +1,133 @@
+{
+  "lang": "id",
+  "meta": {
+    "title": "Maven Coffee & Resto — Specialty Coffee & Resto Modern di Jakarta",
+    "description": "Maven Coffee & Resto: specialty coffee, brunch artisan, private event & kemitraan franchise. 12+ outlet, 150K+ cups served, rating 4.9. Reservasi & catering korporat.",
+    "keywords": "coffee shop jakarta, resto kemang, franchise kopi, catering korporat, private event"
+  },
+  "nav": {
+    "links": [
+      { "label": "Menu", "href": "#layanan" },
+      { "label": "Keunggulan", "href": "#statistik" },
+      { "label": "Signature", "href": "#studi" },
+      { "label": "Testimoni", "href": "#testimoni" },
+      { "label": "Kontak", "href": "#kontak" }
+    ],
+    "cta": { "label": "Reservasi Meja", "href": "#kontak" }
+  },
+  "hero": {
+    "eyebrow": "☕ Dipercaya 150K+ coffee lovers & 200+ perusahaan",
+    "title": "Ngopi Serius, Makan Puas, Momen",
+    "titleAccent": "Tak Terlupakan.",
+    "subtitle": "Specialty coffee single-origin, brunch artisan, dan private space cozy di jantung Kemang. Cocok untuk kerja, nongkrong, sampai corporate gathering.",
+    "primaryCta": { "label": "Reservasi Sekarang", "href": "#kontak" },
+    "secondaryCta": { "label": "Lihat Menu Signature", "href": "#studi" },
+    "badges": ["Single-Origin Arabika", "Halal Certified", "Rating 4.9 ★"],
+    "mediaCard": {
+      "title": "Best Seller",
+      "item": "Maven Butterscotch Latte",
+      "price": "Rp 38K",
+      "rating": "4.9 (12.4K ulasan)",
+      "open": "Buka Hari Ini • 08.00–23.00"
+    }
+  },
+  "logos": {
+    "heading": "Powering Next-Gen Enterprises & Foodies Worldwide",
+    "sub": "Telah dipercaya partner delivery & korporat ternama",
+    "items": ["GOFOOD", "GRABFOOD", "SHOPEEFOOD", "TRAVELOKA EATS", "BCA", "MANDIRI", "TELKOMSEL", "GOTO"]
+  },
+  "gallery": {
+    "eyebrow": "Vibe & Rasa",
+    "title": "Intip suasana & menu favorit",
+    "sub": "Geser / klik panah. Foto otomatis jalan tiap 4 detik.",
+    "items": [
+      { "src": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1200&auto=format&fit=crop", "caption": "Ambience cozy Kemang — cocok untuk kerja & nongkrong" },
+      { "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1200&auto=format&fit=crop", "caption": "Coffee bar — single-origin fresh roast" },
+      { "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop", "caption": "Butterscotch Latte — best seller kami" },
+      { "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=1200&auto=format&fit=crop", "caption": "Dinner setup — untuk date & corporate" },
+      { "src": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop", "caption": "Rooftop sunset session tiap Jumat" }
+    ]
+  },
+  "services": {
+    "eyebrow": "Kenapa Maven?",
+    "title": "Satu tempat untuk semua kebutuhan rasa",
+    "sub": "Dari morning coffee sampai gala dinner — semua di-handle tim profesional kami.",
+    "items": [
+      { "icon": "☕", "title": "Specialty Coffee Bar", "desc": "Single-origin Gayo, Toraja & Kintamani, diseduh certified barista.", "link": "Lihat detail →", "price": "Mulai Rp 25K", "detail": "Bar kami pakai beans fresh-roast setiap minggu dari 3 origin terbaik Indonesia. Tersedia manual brew (V60, Aeropress, Vietnam Drip) + espresso based. Barista tersertifikasi SCA.", "features": ["12+ single-origin rotasi", "Opsi oat/soy milk +Rp 8K", "Beans retail 200gr mulai Rp 95K"] },
+      { "icon": "🍳", "title": "Artisan Brunch & Resto", "desc": "80+ menu Western–Indonesia, halal, ada opsi vegan & gluten-free.", "link": "Lihat detail →", "price": "Mulai Rp 35K", "detail": "Dapur kami buka 08.00–22.00. Menu favorit: Wagyu Sambal Matah, Truffle Aglio Olio, dan Nasi Campur Maven. Semua halal certified, ada kids menu.", "features": ["80+ menu + paket hemat", "Opsi vegan & gluten-free", "Kids friendly + high chair"] },
+      { "icon": "💼", "title": "Corporate Catering", "desc": "Meeting package, coffee break & lunch box untuk 20–500 pax.", "link": "Lihat detail →", "price": "Mulai Rp 55K/pax", "detail": "Sudah handle 200+ perusahaan. Termasuk delivery tepat waktu, setup buffet, peralatan makan, dan opsi prasmanan / lunch box. Invoice tempo & NPWP tersedia.", "features": ["Min. order 20 pax", "Free tasting untuk 100+ pax", "Bisa invoice tempo 14 hari"] },
+      { "icon": "🎉", "title": "Private Event Space", "desc": "Rooftop & VIP room kapasitas 150 pax, full sound + LED.", "link": "Lihat detail →", "price": "Mulai Rp 2,5jt / 4 jam", "detail": "Rooftop sunset view + indoor VIP room. Cocok untuk birthday, lamaran, gathering kantor, sampai akustik. Termasuk sound, mic, LED, dan LO event.", "features": ["Kapasitas 20–150 pax", "Free 1x trial food tasting", "Diskon weekday 20%"] },
+      { "icon": "🤝", "title": "Franchise / Kemitraan", "desc": "Modal mulai 350jt, BEP 12–18 bulan, full training & SOP.", "link": "Lihat detail →", "price": "Modal 350–850jt", "detail": "3 tipe: Express (takeaway), Regular (cafe 80m2), Flagship (resto 200m2). Sudah termasuk desain, peralatan, training 14 hari, SOP, dan supply beans prioritas.", "features": ["BEP 12–18 bulan", "Royalty flat, bukan % omset", "Survei lokasi gratis"] },
+      { "icon": "📦", "title": "Beans & Subscription", "desc": "Beans fresh roast mingguan + sewa mesin untuk kantor/cafe.", "link": "Lihat detail →", "price": "Mulai Rp 95K", "detail": "Langganan beans mingguan/bulanan untuk rumah, kantor, atau cafe kamu. Termasuk kalibrasi gratis + sewa mesin espresso mulai 500rb/bulan.", "features": ["Fresh roast tiap Senin", "Gratis ongkir Jabodetabek", "Sewa mesin + maintenance"] }
+    ]
+  },
+  "stats": {
+    "eyebrow": "Bukti, bukan janji",
+    "title": "Angka yang bikin investor & pelanggan tenang",
+    "items": [
+      { "value": 12, "suffix": "+", "label": "Outlet Aktif", "desc": "Jabodetabek & Bandung" },
+      { "value": 150, "suffix": "K+", "label": "Cups Served", "desc": "Sejak 2019" },
+      { "value": 4.9, "suffix": "★", "label": "Rating Google", "desc": "Dari 12.400+ ulasan", "decimal": true },
+      { "value": 200, "suffix": "+", "label": "Partner Korporat", "desc": "Catering & event" }
+    ]
+  },
+  "cases": {
+    "eyebrow": "Signature & Use-Case",
+    "title": "Menu andalan & cerita sukses klien",
+    "sub": "Filter berdasarkan kebutuhanmu.",
+    "filters": ["Semua", "Coffee", "Food", "Space", "Korporat"],
+    "items": [
+      { "tag": "Coffee", "title": "Butterscotch Latte", "desc": "Best seller 3 tahun berturut-turut.", "metric": "45K+ terjual/bln", "emoji": "🥤", "price": "Rp 38K (hot/iced)", "detail": "Signature kami: espresso double shot + butterscotch homemade + susu creamy. Bisa less sugar / oat milk. Tersedia 250ml & 500ml takeaway.", "points": ["Best seller sejak 2021", "Homemade syrup, tidak enek", "Rating 4.9 dari 8K+ ulasan"] },
+      { "tag": "Food", "title": "Wagyu Sambal Matah", "desc": "Fusion favorit food blogger.", "metric": "4.9★ favorit", "emoji": "🥩", "price": "Rp 89K", "detail": "Wagyu slice empuk + sambal matah Bali + nasi liwet hangat. Porsi pas, pedas bisa request level 1–5.", "points": ["Daging wagyu grade A", "Level pedas custom", "Include es teh / lemon tea"] },
+      { "tag": "Space", "title": "Rooftop Sunset Session", "desc": "Venue akustik tiap Jumat sore.", "metric": "150 pax / malam", "emoji": "🌇", "price": "Free entry (reservasi)", "detail": "Setiap Jumat 17.00–21.00: live akustik + promo buy 1 get 1 coffee. View sunset terbaik di Kemang. Slot meja cepat penuh — reservasi H-1.", "points": ["Live music tiap Jumat", "Promo B1G1 17–19.00", "Cocok untuk nongkrong & date"] },
+      { "tag": "Korporat", "title": "Tech Company Gathering", "desc": "Catering + venue 300 pax, zero complaint.", "metric": "300 pax handled", "emoji": "🏢", "price": "Custom quote", "detail": "Studi kasus: gathering 300 pax unicorn startup. Setup 2 jam, 4 stall live cooking, coffee bar unlimited. NPS 9.2/10 dari panitia.", "points": ["300 pax, 0 komplain", "Live stall + coffee bar", "LO + dokumentasi included"] },
+      { "tag": "Coffee", "title": "Manual Brew Bar", "desc": "V60, Aeropress, Vietnam Drip experience.", "metric": "12 single-origin", "emoji": "☕", "price": "Mulai Rp 32K", "detail": "Racik sendiri bareng barista: pilih beans, pilih metode, cicip notes fruity/nutty/choco. Cocok untuk coffee enthusiast.", "points": ["12 origin rotasi", "Diseduh di meja kamu", "Gratis cicip 2 notes"] },
+      { "tag": "Food", "title": "Family Weekend Brunch", "desc": "Paket keluarga 4 orang hemat 25%.", "metric": "25% lebih hemat", "emoji": "🥞", "price": "Rp 199K / 4 orang", "detail": "Sabtu–Minggu 09.00–14.00: 4 main course + 4 drink + 1 dessert sharing. Anak <5th gratis Nugget & Milk.", "points": ["Hemat 25% vs ala carte", "Kids menu gratis <5th", "Free playground area"] }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Kata mereka",
+    "title": "Dipercaya pelanggan & decision maker",
+    "items": [
+      { "quote": "Tempat paling konsisten untuk meeting klien. WiFi kencang, colokan banyak, kopi tidak pernah gagal.", "name": "Ratna Wijaya", "role": "Procurement Manager, Fintech Jakarta", "initial": "R", "stars": 5 },
+      { "quote": "Kami handle 300 pax gathering di Maven, semua rapi. Tim event-nya pro banget.", "name": "Daniel Hartono", "role": "HRD Lead, Startup Unicorn", "initial": "D", "stars": 5 },
+      { "quote": "Sebagai investor F&B, SOP dan margin Maven termasuk top 5% yang pernah saya review.", "name": "Sarah Chen", "role": "Angel Investor, F&B Portfolio", "initial": "S", "stars": 5 },
+      { "quote": "Butterscotch latte-nya juara. Barista hafal pesanan langganan saya. Berasa rumah kedua.", "name": "Fajar Pratama", "role": "Regular sejak 2020", "initial": "F", "stars": 5 }
+    ]
+  },
+  "form": {
+    "eyebrow": "Hubungi kami",
+    "title": "Reservasi, catering, atau jadi mitra?",
+    "sub": "Isi 30 detik. Tim kami balas < 5 menit di jam operasional via WhatsApp.",
+    "fields": {
+      "name": "Nama Lengkap",
+      "email": "Email Kerja / Pribadi",
+      "company": "Perusahaan / Organisasi (opsional)",
+      "phone": "No. WhatsApp",
+      "type": "Kebutuhan",
+      "message": "Ceritakan kebutuhanmu"
+    },
+    "types": ["Reservasi Meja", "Corporate Catering", "Private Event / Venue", "Franchise / Kemitraan", "Lainnya"],
+    "submit": "Kirim via WhatsApp",
+    "successTitle": "Terkirim! 🎉",
+    "successDesc": "Data kamu siap dikirim ke WhatsApp kami. Klik tombol di bawah untuk konfirmasi final.",
+    "waButton": "Buka WhatsApp Sekarang",
+    "close": "Tutup"
+  },
+  "footer": {
+    "desc": "Specialty coffee & resto modern. Nongkrong, kerja, event, dan kemitraan — semua dalam satu atap hangat.",
+    "cols": [
+      { "title": "Jelajah", "links": ["Menu Signature", "Corporate Catering", "Private Event", "Franchise"] },
+      { "title": "Perusahaan", "links": ["Tentang Kami", "Karier", "Blog & Promo", "Investor Relation"] },
+      { "title": "Legal", "links": ["Privacy Policy", "Syarat & Ketentuan", "Kebijakan Cookie", "Halal Cert."] }
+    ],
+    "rights": "Seluruh hak cipta dilindungi.",
+    "madeIn": "Dibuat dengan ♥ di Jakarta"
+  },
+  "sticky": { "label": "Reservasi", "wa": "WhatsApp" },
+  "cookie": {
+    "text": "Kami memakai cookie untuk analitik & pengalaman terbaik (sesuai UU PDP & GDPR).",
+    "accept": "Setuju",
+    "reject": "Tolak"
+  }
+}
